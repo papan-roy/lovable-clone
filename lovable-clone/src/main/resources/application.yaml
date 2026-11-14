@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: lovable-clone
+  datasource:
+    url: ${DB_URL:jdbc:postgresql://localhost:5432/lovable_clone}
+    username: ${DB_USERNAME:postgres}
+    password: ${DB_PASSWORD:}
